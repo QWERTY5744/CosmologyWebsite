@@ -1,0 +1,67 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  
+.topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  a{
+    color: white;
+  }
+
+  body{
+    background-image: url(hubbleultradeep.jpg);
+    background-size: 100vh auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    min-height: 100vh;
+    min-width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .expandinguni{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: auto;
+  }
+
+  .expandinguni:hover{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57vh;
+    width: auto;
+  }

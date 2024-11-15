@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmology 101-Deriving critical density</title>
+    <link href="criticaldensity.css" rel="stylesheet">
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="content.html">Content</a>
+        <a href="historyofcosmology.html">History of Cosmology</a>
+        <a href="historyofuniverse.html">History of Universe</a>
+        </div>
+</head>
+<body>
+    <h1 class="disclaimer"> Please keep in mind that all the Universes we will be discussing does not include cosmological constant in it.</h1>
+    <div class="intro">
+        <p> The definition of critical density is that if the density of the universe is greater than this, the curvature will be positve, if it is smaller than this, it will be negative. </p>
+    </div>
+    <h1>Newtonian approximation</h1>
+    <p>
+        Before we start the derivation, we shall introduce the <a href="https://en.wikipedia.org/wiki/Cosmological_principle" target="_blank">cosmological principle</a>:
+        <br>
+        <h2 class="cosmologicalprinciple">
+            The spatial distribution of matter in the Universe is uniformly isotropic and homogeneous when viewed on a large enough scale.
+        </h2>
+        In simple, it assumes that matter in the universe is evenly distributed on a large scale. Although this principle is still under debate, but all the models of Universe derived from this pricinple is currently doing a good job on explaining the Universe, so we will take it as a true statement for now.
+    <p>
+        In Newtonian way, we need to slightly alter the definition of critical density, we will change it to: if the universe expand according to <a href="/html/hubblelaw.html">Hubble Law</a>, then the critical density is the density of universe which it will halt its expansion when the age of universe becomes infinitly old. In the section of <a href="/html/fateofuniverse.html">Fate of Universe</a>, you will see the validity iof this assumption.
+    </p>
+    <p>
+        The escape velocity of a body with a mass of <math><mi>M</mi></math> and a radius of <math><mi>R</mi></math> is:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="escvelocity">
+            <msub>
+              <mi>v</mi>
+              <mi>e</mi>
+            </msub>
+            <mo>=</mo>
+            <msqrt>
+              <mfrac>
+                <mrow>
+                  <mo>2</mo>
+                  <mo>&#8290;</mo>
+                  <mi>G</mi>
+                  <mi>M</mi>
+                </mrow>
+                <mi>R</mi>
+              </mfrac>
+            </msqrt>
+          </math>
+          <br>
+        By Hubble Law, the recession velocity of a location with a distance <math><mi>R</mi></math> to the observer is:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="hubblelaw">
+            <mrow>
+                <mi>v</mi>
+                <mo>=</mo>
+                <msub>
+                <mi>H</mi> 
+                    <mi>0</mi>
+                </msub>
+                <mi>R</mi>
+            </mrow>
+        </math>
+        <br>
+        If these two velocity is equal to each other, then it means that the velocity caused by the expansion of the Universe cancels out the gravitational pull of matter from elsewhere. Meaning that the any stronger gravitational pull (larger density) will result in a collapse, any weaker gravitational pull (smaller density) will result in a forever expansion.
+        <br>
+        Knowing that the density of a sphere is:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="spheredensity">
+            <mi>&#961;</mi>
+            <mo>=</mo>
+            <mfrac>
+              <mi>M</mi>
+              <mrow>
+                <mfrac>
+                  <mn>4</mn>
+                  <mn>3</mn>
+                </mfrac>
+                <mo>&#8290;</mo>
+                <mi>&#960;</mi>
+                <msup>
+                <mi>R</mi>
+                <mn>3</mn>
+                </msup>
+              </mrow>
+            </mfrac>
+          </math>
+        <br>
+        Equate the two velocity and replace mass with density, we arrive on the definition of critical density:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="critdensity">
+            <msub>
+                <mi>
+                    &#x03C1;
+                </mi>
+                <mi>cr</mi>
+                </msub>
+                <mo>(t)</mo>
+            <mo>=</mo>
+            <mfrac>
+                <mrow>
+                    <msup>
+                        <mo>3H(t)</mo>
+                        <mn>2</mn>
+                    </msup>
+                </mrow>
+                <mrow>
+                <mn>8</mn>
+                <mi>&#x3C0</mi>
+                <mi>G</mi>
+            </mrow>
+            </mfrac>
+        </math>
+        <br>
+    Although this method is starightforward and easy, it sadly contradicts the cosmological principle, since now we are now assuming that the Universe is expanding like a sphere and a sphere is not homogeneous and isotropic, since the center of the sphere is a special point (it experience no gravity).
+    The accurate derivation should start with the Friedmann Equation derived from General Relativity.
+    </p>
+    <div class="grderive">
+      <h1>
+        General Relativity Way
+      </h1>
+      In a Universe without cosmological constant, the Friedmann Equation is written as:
+      <math xmlns="http://www.w3.org/1998/Math/MathML" class="friedmanneq">
+        <msup>
+            <mrow>
+                <mi>H</mi>
+            </mrow>
+            <mn>2</mn>
+        </msup>
+        <mi>=</mi>
+        <mfrac>
+            <mrow>
+                <mn>8</mn>
+                <mi>&#x03C0</mi>
+                <mi>G</mi>
+            </mrow>
+            <mrow>
+                <mn>3</mn>
+            </mrow>
+        </mfrac>
+        <mo>(</mo>
+        <mrow>
+            <msub>
+            <mi>
+                &#x03C1;
+            </mi>
+            <mi>m</mi>
+        </msub>
+        </mrow>
+        <mo>+</mo>
+            <msub>
+                <mi>&#x03C1;</mi>
+                <mi>r</mi>
+            </msub>
+            <mo>)</mo>
+        <mo>-</mo>
+        <mfrac>
+            <mrow>
+                <mi>k</mi>
+                <msup>
+                    <mrow>
+                        <mi>c</mi>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+            </mrow>
+            <mrow>
+                <msup>
+                    <mrow>
+                        <msub>
+                            <mi>R</mi>
+                            <mn>0</mn>
+                        </msub>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+                <msup>
+                    <mrow>
+                        <mi>a</mi>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+            </mrow>
+        </mfrac>
+    </math>
+    <br>
+    <p>
+      If we divide both side by Hubble parameter squared, we get (since matter and radiation is basically the samething, we will combine these two terms for now for the sake of simplicity):
+      <math xmlns="http://www.w3.org/1998/Math/MathML" class="friedmannalt">
+        <mrow>
+          <mi>1</mi>
+          <mo>=</mo>
+            <mi>&#x3A9;</mi>
+        <mi>(t)</mi>
+        <mn>-</mn>
+        <mfrac>
+          <mrow>
+              <mi>k</mi>
+              <msup>
+                  <mrow>
+                      <mi>c</mi>
+                  </mrow>
+                  <mn>2</mn>
+              </msup>
+          </mrow>
+          <mrow>
+            <msup>
+                <mrow>
+                    <msub>
+                        <mi>R</mi>
+                        <mn>0</mn>
+                    </msub>
+                </mrow>
+                <mn>2</mn>
+            </msup>
+              <msup>
+                  <mrow>
+                      <mi>a</mi>
+                  </mrow>
+                  <mn>2</mn>
+              </msup>
+              <msup>
+                <mrow>
+                    <mi>H</mi>
+                </mrow>
+                <mn>2</mn>
+            </msup>
+          </mrow>
+        </mrow>
+      </math>
+      <br>
+    </div>
+    Move the term around, we get:
+    <math xmlns="http://www.w3.org/1998/Math/MathML" class="friedmannalt1">
+      <mrow>
+        <mi>1</mi>
+        <mo>-</mo>
+          <mi>&#x3A9;</mi>
+      <mi>(t)</mi>
+      <mn>=</mn>
+      <mo>-</mo>
+      <mfrac>
+        <mrow>
+            <mi>k</mi>
+            <msup>
+                <mrow>
+                    <mi>c</mi>
+                </mrow>
+                <mn>2</mn>
+            </msup>
+        </mrow>
+        <mrow>
+            <msup>
+                <mrow>
+                    <msub>
+                        <mi>R</mi>
+                        <mn>0</mn>
+                    </msub>
+                </mrow>
+                <mn>2</mn>
+            </msup>
+            <msup>
+                <mrow>
+                <mi>a</mi>
+                </mrow>
+                <mn>2</mn>
+            </msup>
+            <msup>
+              <mrow>
+                  <mi>H</mi>
+              </mrow>
+              <mn>2</mn>
+          </msup>
+        </mrow>
+      </mrow>
+    </math>
+    <p>
+        We should first recognize that the curvature of Universe cannot changed sign, thus meaning that on the right hand side, 
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mrow>
+            <mi>1</mi>
+            <mo>-</mo>
+              <mi>&#x3A9;</mi>
+          <mi>(t)</mi>
+        </math>
+        also cannot change sign, thus:
+        <ul>
+            <li>if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3A9;</mi></math> is smaller than one, the Universe will be a negatively curved space</li>
+            <li>if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3A9;</mi></math> is greater than one, the Universe will be a positively curved space</li>
+            <li>if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3A9;</mi></math> is equal to one, the Universe will be a flat Universe</li>
+        </ul>
+        Note that from the definition of density parameter, we can recognize that:
+        <ul>
+            <li>if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3A9;</mi></math> is smaller than one, it means the density of Universe is smaller than critical density</li>
+            <li>if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3A9;</mi></math> is greater than one, it means the density of Universe is greater than critical density</li>
+            <li>if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3A9;</mi></math> is equal to one, it means the density of Universe is equal to critical density</li>
+        </ul> 
+    </p>
+</body>
+</html>

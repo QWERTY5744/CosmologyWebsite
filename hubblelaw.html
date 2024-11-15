@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmology-Hubble's Law</title>
+    <link rel="stylesheet" href="hubblelaw.css">
+</head>
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="content.html">Content</a>
+    <a href="historyofcosmology.html">History of Cosmology</a>
+    <a href="historyofuniverse.html">History of Universe</a>
+    </div>
+<body>
+    <h1>
+        Hubble's Law
+    </h1>
+    <p>
+       In 1929, <a href="https://en.wikipedia.org/wiki/Edwin_Hubble" target="_blank">Edwin Hubble</a> discover that the farther the galaxy is, the faster it is moving away from us, this is known as the Hubble law.
+    </p>    
+    <br>
+    <math xmlns="http://www.w3.org/1998/Math/MathML" class="hubble">
+        <mrow>
+            <mi>v</mi>
+            <mo>=</mo>
+            <msub>
+            <mi>H</mi> 
+                <mi>0</mi>
+            </msub>
+            <mi>d</mi>
+        </mrow>
+    </math>
+    <p>
+        In the formula, v is the recession velocity measured in km/s, 
+        </p>
+        <math>
+            <mrow>
+                <msub>
+                    <mi>H</mi>
+                    <mi>0</mi>
+                </msub>
+            </mrow>
+        </math>
+        is Hubble Constant, 
+        <math>
+            <mrow>
+                <msub>
+                    <mi>H</mi>
+                    <mi>0</mi>
+                </msub>
+            </mrow>
+        </math>=68km/s/Mpc and d is the distance in Mpc. This provide us with a method to measure distance of extremely distant galaxies using redshift.
+    <p>
+        Define redshift 
+        <math>
+            <mrow>
+                <mi>
+                    z
+                </mi>
+            </mrow>
+        </math>
+        , a dimensionless quantity that indicates how much the wavelength of light has increase relative to the original wavelength.
+        </p>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="redshift">
+            <mrow>
+                <mi>z</mi>
+                <mo>=</mo>
+            </mrow>
+                <mfrac>
+                    <mrow>
+                        <mi>&lambda;</mi>
+                        <mo>−</mo>
+                        <msub>
+                            <mi>&lambda;</mi>
+                            <mi>0</mi>
+                        </msub>
+                    </mrow>
+                        <msub>
+                            <mi>&lambda;</mi>
+                            <mi>0</mi>
+                        </msub>
+                </mfrac>
+        </math>  
+        <p>
+        Note that the value of redshift can be both positive and negative.
+    
+        By <a href="https://en.wikipedia.org/wiki/Doppler_effect" target="_blank">
+            Doppler effect
+        </a>
+        , one can determine the relative velocity with the observer.
+        </p>
+        <br>
+    <math xmlns="http://www.w3.org/1998/Math/MathML" class="doppler">
+        <mrow>
+            <mi>v</mi>
+            <mo>=</mo>
+            <mi>c</mi>
+            <mi>z</mi>
+        </mrow>
+    </math>
+    Here
+    <math>
+        <mrow>
+            <mi>c</mi>
+        </mrow>
+    </math>
+    is the speed of light in vaccum.
+        click here
+    </a>
+
+    <p>
+        Let's first analyze the equation:
+        </p>
+        <ul>
+            <li>if the redshift is greater than 0, velocity is also greater than 0, which means we are 
+                <strong>
+                    moving away
+                </strong>
+                from the source of emission.</li>
+            <li>If the redshift is smaller than 0, velocity will also be smaller than 0, which means we are 
+                <strong>
+                    heading towards
+                </strong>
+                the source of emission.</li>
+        </ul>
+    
+        We can calculate velocity through redshift, and through this, we can calculate the distance of galaxies.
+    <p>
+    Before you jump in and use this law, there are some things you should know in advance:
+    </p>
+        <ul>
+            <li>If redshift exceeds 
+                <math>
+                    <mrow>
+                        <mi>0.1</mi>
+                    </mrow>
+                </math>
+                , we need to use the relativistic version of redshift formula:
+                <math xmlns="http://www.w3.org/1998/Math/MathML" class="reldoppler">
+                    <mrow>
+                        <mi>v</mi>
+                        <mo>=</mo>
+                    </mrow>
+                    <mfrac>
+                      <mrow>
+                        <msup>
+                            <mrow>
+                                <mo>(</mo>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mi>z</mi>
+                                <mo>)</mo>
+                            </mrow>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>-</mo>
+                            <mn>1</mn>
+                      </mrow>
+                      <mrow>
+                        <msup>
+                            <mrow>
+                                <mo>(</mo>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mi>z</mi>
+                                <mo>)</mo>
+                            </mrow>
+                                <mn>2</mn>
+                        </msup>
+                                <mo>+</mo>
+                                <mn>1</mn>
+                            </mrow>
+                    </mfrac>
+                    <mi>c</mi>
+                  </math></li>
+                  <br>
+                  <div>
+                  <div class="relativistic-redshift">
+                    <img src="velocity-redshift.jpg" class="velocity-redshift" alt="at high velocity, relativity must be taken into account">
+                  </div>
+                  <div class="text">
+                    When redshift is high, the linear model of
+                    <math>
+                        <mi>v</mi>
+                        <mo>=</mo>
+                        <mi>c</mi>
+                        <mi>z</mi>
+                    </math>
+                    will deviated from the relativistic results, so we should switch from the linear model to relativistic model.
+                  </div>
+                </div>
+                <br>
+                <li>
+                    When measuring objects in the local universe (distance is less than 10 Mpc), Hubble law is invalid because the
+                    <a href="https://en.wikipedia.org/wiki/Proper_motion" target="_blank">proper motion</a> is compariable with cosmological expansions, so the part of the redshift will be contributed by the proper motion, not the expansion of the universe.
+                </li>
+        </ul>
+</body>
+</html>

@@ -1,0 +1,110 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  
+.topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+.friedmanneq{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+}
+
+.darkmattervid{
+  height: auto;
+  width: 30vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.critdensity{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+}
+
+.densityparameter{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+}
+
+.altfriedmann{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+}
+
+body{
+  background-image: url(m51.jpg);
+  background-size: 100vw auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  min-height: 100vh;
+  min-width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  color: white;
+}
+
+math{
+  color: white;
+}
+
+.curvatureparameter{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+}
+
+.cosmologicalconstparameter{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+}

@@ -1,0 +1,84 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+body{
+  background-image: url(bh.jpg);
+  background-size: 100vw auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  min-height: auto;
+  min-width: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  color: white;
+}
+
+.hubblelaw{
+  float: left;
+  font-size: 6vh;
+  margin: 20vh 8vw;
+}
+
+.hubblelawimg{
+  float:right;
+  margin: 6vh 6vw;
+  height: 40vh;
+  width: auto;
+}
+
+.friedmann{
+  float: left;
+  font-size: 6vh;
+  margin: 20vh 4vw;
+}
+
+.friedmannimg{
+  float: right;
+  margin: 10vh 3vw;
+  height: 30vh;
+  width: auto;
+}
+
+
+.fateofuniverse{
+  float: left;
+  font-size: 6vh;
+  margin: 30vh 4vw;
+}
+
+.expansionuniverseimg{
+  float: right;
+  margin: 6vh 6vw;
+  height: 40vh;
+  width: auto;
+}

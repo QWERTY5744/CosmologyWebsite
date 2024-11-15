@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmology 101-Analyzing Simple Universe</title>
+    <link href="simpleuniverse.css" rel="stylesheet">
+</head>
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="content.html">Content</a>
+    <a href="historyofcosmology.html">History of Cosmology</a>
+    <a href="historyofuniverse.html">History of Universe</a>
+    </div>
+<body>
+    <br>
+    We will analyze some simple Universe to get an idea on how will we use the Friedmann Equation.
+    <h1>
+        Empty Universe with Curvature
+    </h1>
+    The first type of Universe we will examine is a empty Universe with a curvature, in this case. the Friedmann Equation will be written as:
+    <math xmlns="http://www.w3.org/1998/Math/MathML" class="emptyuniverseeq">
+        <msup>
+            <mrow>
+                <mi>H</mi>
+            </mrow>
+            <mn>2</mn>
+        </msup>
+        <mi>=</mi>
+        <mo>-</mo>
+        <mfrac>
+            <mrow>
+                <mi>k</mi>
+                <msup>
+                    <mrow>
+                        <mi>c</mi>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+            </mrow>
+            <mrow>
+                <msup>
+                    <mrow>
+                        <mi>a</mi>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+                <msup>
+                    <mrow>
+                        <msub>
+                            <mi>R</mi>
+                            <mn>0</mn>
+                        </msub>
+                    </mrow>
+                    <mn>2</mn>
+                </msup>
+            </mrow>
+        </mfrac>
+    </math>
+    <br>
+    This indicates that this Universe can only be a negatively curved or flat Universe, because a positively curved Universe means an imaginary value for Hubble parameter. There are two possible solution to this equation:
+    <ul>
+        <li>A static flat universe 
+            (<math>
+                <mi>H(t)</mi>
+                <mo>=</mo>
+                <mi>0</mi>
+            </math> and
+            <math>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mi>0</mi>
+            </math>)
+        </li>
+        <li>
+            A negatively curved expanding/contracting Universe
+        </li>
+    </ul>
+    <p>We will now focus on the negatively curved expanding/contracting Universe, since we know the Hubble parameter is defined as: 
+        <math class="hubbleparameter">
+            <msup>
+                <mrow>
+            <mi>H</mi>
+            <mo>=</mo>
+            <mfrac>
+                <mrow>
+                    <mover>
+                        <mi>a</mi>
+                        <mo>&#x0307</mo>
+                    </mover>
+                </mrow>
+                <mi>a</mi>
+            </mfrac>
+        </mrow>
+        </math>
+        We obtain this equation:
+        <math class="emptycurveduniverseeq">
+            <mfrac>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>a</mi>
+                </mrow>
+                <mrow>
+                <mi>a</mi>
+                <mi>d</mi>
+                <mi>t</mi>
+            </mrow>
+            </mfrac>
+            <mo>=</mo>
+            <mo>±</mo>
+            <mfrac>
+                <mrow>
+                    <mi>c</mi>
+                    </mrow>
+                    <msub>
+                        <mi>R</mi>
+                        <mn>0</mn>
+                    </msub>
+            </mfrac>
+        </math>
+        <br>
+        Solving this differential equation, we obtain the relation between scale factor and time (which is the ultimate goal of cosmology):
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="solutionemptyuniverse">
+            <mi>a</mi>
+            <mi>(t)</mi>
+            <mo>=</mo>
+            <mfrac>
+                <mrow>
+                    <mi>t</mi>
+                </mrow>
+                <msub>
+                    <mi>t</mi>
+                    <mn>0</mn>
+                </msub>
+            </mfrac>
+        </math>
+        <br>
+        Where
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msub>
+                <mi>t</mi>
+                <mn>0</mn>
+            </msub>
+            <mo>=</mo>
+                        <msub>
+                            <mi>R</mi>
+                            <mn>0</mn>
+                        </msub> 
+                        <mi>/</mi>   
+                        <mi>c</mi>  
+        </math>
+        <br>
+        This indicates that the universe expand linearly, in Newtonian terms, since there is nothing in the Universe to slow its expansion down, the rate of expansion will not change.
+        <br>
+        At first glance, this type of Universe sounds like only a math game, there is no possible application (since it is an empty Universe, nothing can be done inside), but if we take a step back and notice that if the density parameter is reasonable low (low enough to neglect its exsistance), we can apply this model to the Universe we want to describe and simplify calculations.
+    </p>
+    <h1>
+        Matter Dominated Flat Universe
+    </h1>
+    <p>
+        In this Universe, we can write the Friedmann Equation as:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq">
+            <msup>
+                <mrow>
+                    <mi>H</mi>
+                </mrow>
+                <mn>2</mn>
+            </msup>
+            <mi>=</mi>
+            <mfrac>
+                <mrow>
+                    <mn>8</mn>
+                    <mi>&pi;</mi>
+                    <mi>G</mi>
+                </mrow>
+                <mrow>
+                    <mn>3</mn>
+                </mrow>
+            </mfrac>
+            <mrow>
+                <msub>
+                <mi>
+                    &rho;
+                </mi>
+                <mi>m</mi>
+        </math>
+        Introducing the density parameter into this equation, we get:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq2">
+            <mfrac>
+                <mrow>
+                    <msup>
+                        <mi>H</mi>
+                        <mn>2</mn>
+                    </msup>
+                </mrow>
+                <mrow>
+                    <msup>
+                        <msub>
+                          <mi>H</mi>
+                          <mn>0</mn>
+                        </msub>
+                        <mn>2</mn>
+                    </msup>
+                </mrow>
+            </mfrac>
+                <mo>=</mo>
+            <mfrac>
+                <mrow>
+                <msub>
+                    <mi>&Omega;</mi>
+                    <mi>m</mi>
+                </msub>
+                <mi>(t)</mi>
+            </mrow>
+            <mrow>
+                <msub>
+                    <mi>&Omega;</mi>
+                    <mi>m0</mi>
+                </msub>
+            </mrow>
+            </mfrac>
+        </math>
+    </p>
+    In a matter dominated Universe, by definition 
+    <math>
+        <msub>
+            <mi>&Omega;</mi>
+            <mi>m0</mi>
+        </msub>
+        <mo>=</mo>
+        <mn>1</mn>
+    </math>
+    <p>
+        Also, it is trivial that the matter density is propotional to 
+        <math>
+            <msup>
+                <mi>a</mi>
+                <mn>-3</mn>
+            </msup>
+        </math>
+        (basically, the total matter of the Universe is conserved, and volume is propotional to 
+        <math>
+            <msup>
+                <mi>a</mi>
+                <mn>-3</mn>
+            </msup>
+        </math>)
+        If we write 
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msub>
+                <mi>&Omega;</mi>
+                <mi>m</mi>
+            </msub>
+            <mi>(a)</mi>
+            <mo>=</mo>
+            <msub>
+                <mi>&Omega;</mi>
+                <mi>m0</mi>
+            </msub>
+                <msup>
+                    <mi>a</mi>
+                    <mn>-3</mn>
+                </msup>
+        </math>
+        (Here density parameter is a function of scale factor, however scale factor is related to time, thus density parameter can also be expressed as a function of time, which is exactly what we will be doing now)
+        <br>
+        Then the rate of expansion can be written as:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq3">
+            <mfrac>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>a</mi>
+                </mrow>
+                <mrow>
+                <mi>a</mi>
+                <mi>d</mi>
+                <mi>t</mi>
+            </mrow>
+            </mfrac>
+            <mo>=</mo>
+            <msub>
+                <mi>H</mi>
+                <mn>0</mn>
+            </msub>
+            <msqrt>
+                <msub>
+                    <mi>&Omega;</mi>
+                    <mi>m0</mi>
+                </msub>
+            <msup>
+                <mi>a</mi>
+                <mn>-3</mn>
+            </msup>
+        </msqrt>
+        </math>
+        <br>
+        We take an educated guess that scale factor has a power law form: 
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="guesstheformula">
+            <mi>a</mi>
+            <mo>∝</mo>
+            <msup>
+                <mi>t</mi>
+                <mi>q</mi>
+            </msup>
+        </math>
+        <br>
+        Thus on the left hand side of the equation, we have:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="leftguess">
+            <mfrac>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>a</mi>
+                </mrow>
+                <mrow>
+                <mi>a</mi>
+                <mi>d</mi>
+                <mi>t</mi>
+            </mrow>
+            </mfrac>
+            <mo>∝</mo>
+            <msup>
+                <mi>t</mi>
+                <mrow>
+                    <mi>-1</mi>
+                </mrow>
+            </msup>
+        </math>
+        <br>
+        On the right hand side of the equation, we have:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="rightguess">
+            <msqrt>
+            <msup>
+                <mi>a</mi>
+                <mn>-3</mn>
+            </msup>
+        </msqrt>
+        <mo>∝</mo>
+            <msup>
+                <mi>t</mi>
+                <mrow>
+                    <mo>-</mo>
+                    <mfrac>
+                        <mn>3</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                    <mi>q</mi>
+                </mrow>
+            </msup>
+        </math>
+    </p>
+    The two exponent must be equal (to produce the same dimension), solving for <math><mi>q</mi></math>, we obtain that:
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>q</mi>
+        <mo>=</mo>
+        <mfrac>
+            <mn>2</mn>
+            <mn>3</mn>
+        </mfrac>
+    </math>
+    <br>
+    <p>
+        This indicates that in a matter dominated Universe, the expansion of the Universe follows:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq4">
+            <mi>a</mi>
+            <mo>∝</mo>
+            <msup>
+                <mi>t</mi>
+                <mfrac>
+                    <mn>2</mn>
+                    <mn>3</mn>
+                </mfrac>
+            </msup>
+        </math>
+        <br>
+        We can also write this equation like this:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq7">
+            <mi>a</mi>
+            <mo>=</mo>
+            <msup>
+                <mrow>
+                <mo>(</mo>
+                <mfrac>
+                    <mi>t</mi>
+                    <mrow>  
+                        <msub>
+                            <mi>t</mi>
+                            <mn>0</mn>
+                        </msub>
+                    </mrow>
+                </mfrac>
+                <mo>)</mo>
+                </mrow>
+                <mfrac>
+                    <mn>2</mn>
+                    <mn>3</mn>
+                </mfrac>
+            </msup>
+        </math>
+        If we rearrage the first equation, we will be able to obtain (remember that 
+        <math xmlns="http://www.w3.org/1998/Math/MathML">   
+            <msub>
+                <mi>&Omega;</mi>
+                <mi>m0</mi>
+            </msub>
+        </math>):
+        <br>
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq5">
+            <mi>d</mi>
+            <mi>t</mi>
+            <mo>=</mo>
+            <mfrac>
+                <mn>1</mn>
+                <msub>
+                    <mi>H</mi>
+                    <mn>0</mn>
+                </msub>
+            </mfrac>
+            <msup>
+                <mi>a</mi>
+                <mrow>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </msup>
+            <mi>d</mi>
+            <mi>a</mi>
+        </math>
+        <br>
+        If we integrate time from the start of Universe to time right now, we should integrate scale factor from 0 to 1 (remember that the present day value of scale factor is 1), solving the integral, we obtain the present age of the Universe in terms of Hubble constant:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="matteruniverseeq6">
+            <msub>
+                <mi>t</mi>
+                <mn>0</mn>
+            </msub>
+            <mo>=</mo>
+            <mfrac>
+                <mn>2</mn>
+                <mrow>
+                    <mn>3</mn>
+                    <msub>
+                        <mi>H</mi>
+                        <mn>0</mn>
+                    </msub>
+                </mrow>
+            </mfrac>
+        </math>
+        <br>
+    </p>
+    <h1>
+        Radiation Dominated Universe
+    </h1>
+    <p>
+        Radiation behaves differently from matter, first, it is trivial that radiation can spread to all direction as the Universe expand, second, the wavelength of radiation is also affected by the expansion of the Universe, when the the Universe expand, the wavelength get streched, causing density to further decrease, to sum all the effects up, the density parameter of radiation is proportial to:
+        <math>
+            <msup>
+                <mi>a</mi>
+                <mn>-4</mn>
+            </msup>
+        </math>
+        (3 from the spatial three dimension, 1 from the sterch of wavelength)
+    </p>
+    <p>
+        Just like before, we can write out the Friedmann Equation in a radiation dominated Universe:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="radiationuniverseeq1">
+            <mfrac>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>a</mi>
+                </mrow>
+                <mrow>
+                <mi>a</mi>
+                <mi>d</mi>
+                <mi>t</mi>
+            </mrow>
+            </mfrac>
+            <mo>=</mo>
+            <msub>
+                <mi>H</mi>
+                <mn>0</mn>
+            </msub>
+            <msqrt>
+                <msub>
+                    <mi>&Omega;</mi>
+                    <mi>r0</mi>
+                </msub>
+            <msup>
+                <mi>a</mi>
+                <mn>-4</mn>
+            </msup>
+        </msqrt>
+        </math>
+        <br>
+        Repeating the exact same process, we shall see that:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="radiationuniverseeq2">
+            <mi>a</mi>
+            <mo>=</mo>
+            <msup>
+                <mrow>
+                <mo>(</mo>
+                <mfrac>
+                    <mi>t</mi>
+                    <mrow>  
+                        <msub>
+                            <mi>t</mi>
+                            <mn>0</mn>
+                        </msub>
+                    </mrow>
+                </mfrac>
+                <mo>)</mo>
+                </mrow>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
+            </msup>
+        </math>
+        <br>
+        The present age of Universe is:
+        <math xmlns="http://www.w3.org/1998/Math/MathML" class="radiationuniverseeq3">
+            <msub>
+                <mi>t</mi>
+                <mn>0</mn>
+            </msub>
+            <mo>=</mo>
+            <mfrac>
+                <mn>1</mn>
+                <mrow>
+                    <mn>2</mn>
+                    <msub>
+                        <mi>H</mi>
+                        <mn>0</mn>
+                    </msub>
+                </mrow>
+            </mfrac>
+        </math>
+        <br>
+    </p>
+</body>
+</html> 

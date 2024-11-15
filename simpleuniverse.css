@@ -1,0 +1,189 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  
+.topnav a.active {
+    background-color: black;
+    color: white;
+  }
+
+  body{
+    background-image: url(m57.jpg);
+    background-size: 100vh auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    min-height: 100vh;
+    min-width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .emptyuniverseeq{
+  display: flex;           /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically (optional) */
+  text-align: center;      /* Center text within the div */
+  font-size: 2vw;
+  color: white;
+  }
+
+.emptycurveduniverseeq{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .solutionemptyuniverse{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq2{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq3{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .guesstheformula{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .leftguess{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .rightguess{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq4{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq5{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq6{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .matteruniverseeq7{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .radiationuniverseeq1{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .radiationuniverseeq2{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  .radiationuniverseeq3{
+    display: flex;           /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically (optional) */
+    text-align: center;      /* Center text within the div */
+    font-size: 2vw;
+    color: white;
+  }
+
+  h1{
+    text-align: center;
+  }
